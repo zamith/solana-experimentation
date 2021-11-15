@@ -1,0 +1,15 @@
+[programs.localnet]
+myepicproject = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[programs.devnet]
+myepicproject = "GtSfwNTcVWYVAo6yCG8PhXxAZkZyMUfMpqNEatJ72h7q"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/zamith/.config/solana/id.json"
+
+[scripts]
+test = "npx mocha -t 1000000 ./tests/"
